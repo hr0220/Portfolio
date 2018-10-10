@@ -1,0 +1,425 @@
+# Portfolio
+*{
+  margin:0px;
+  padding:0px;
+
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  z-index: 10;
+}
+
+.header-list{
+  padding-left:50px;
+}
+
+.header-list li{
+  list-style: none;
+  float:left;
+  margin-right: 25px;
+}
+
+
+.header-list a{
+  text-decoration: none;
+  color:gray;
+  font-family: serif;
+}
+
+.header-list a:hover{
+  color:white;
+  opacity:0.8
+}
+
+.main-logo h1{
+  text-align: center;
+  position: relative;
+  top:200px;
+  font-family:"Times New Roman";
+}
+
+.main{
+  background-image: url(https://lh6.googleusercontent.com/JrvS56Sq2Hl7F7mcQuPm-M8qC12XTqNLNBHnomyTR7-Vx9pdCkV5FrCiTVnVKoVyKersM3qr=w572);
+
+  background-size: cover;
+  height:700px;
+  padding-top: 20px;
+}
+
+.main-logo hr{
+  position: relative;
+  top:200px;
+  left:580px;
+}
+
+.myprof{
+  text-align: center;
+  margin-bottom:30px;
+  margin:0 auto;
+  color:white;
+  margin:top:30px;
+  font-family: serif;
+  width:100%;
+}
+
+.myprof hr{
+  position: relative;
+  right:630px;
+}
+
+.myprof h1{
+  font-size:45px;
+  border-top: 2px solid white;
+}
+
+.myprof p{
+  font-size: 25px;
+}
+
+.myinfo{
+  width:100%;
+  background-image: url(https://lh4.googleusercontent.com/dh-_NFAL_tJHdwMFQM3ckuClbFyvKeChWWrZeysmQttjDNxELeGfM_nWccjbndx2OrWkLgxXQPIZ1G9BLcIT71q8P3mZaybGe63zqU_WHYHAcmvUUh0=w572);
+  background-size: cover;
+  height:800px;
+
+}
+
+
+.mytext p{
+  font-size:20px;
+}
+
+.mytext h2{
+  margin-bottom:50px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top:50px;
+  right:80px;
+
+}
+
+.myimg img{
+  display:inline-block;
+  margin-bottom:200px;
+  position: relative;
+  left: 300px;
+  top:50px;
+}
+.textcontents{
+  width: 50%;
+  position: relative;
+  left:400px;
+  top:50px;
+  font-size:20px;
+  color:white;
+}
+
+.textcontents a{
+  color:white;
+}
+
+.textcontents a:hover{
+  color:blue;
+}
+
+.textcontents p{
+  margin-bottom:40px;
+}
+
+.fa-edit{
+  position: relative;
+  left:400px;
+  font-size:30px;
+
+}
+
+.works{
+  height:950px;
+  background-image: url(https://lh5.googleusercontent.com/vHRzqFN9D-mUkn8OQzK6mz0QR-ebHzQNrk6nDQBTuNjmm5EN2UqlII-LbBlLYlm1nigSaW881mgvYc2r6Po95aOh0UqxBTfNAv8CTWrCz9_Q11oUdg=w572);
+  background-size: cover;
+  color:white;
+
+}
+
+.works hr{
+position: relative;
+bottom:70px;
+width:100%;
+}
+
+.works-main{
+  text-align:center;
+}
+
+.works-main h1{
+  font-size:45px;
+  font-family: "Georgia";
+border-top: 2px solid white;
+padding-top:50px;
+}
+
+.works-main p{
+  font-size:25px;
+  font-family: serif;
+}
+
+.works-message{
+  text-align:center;
+  position: relative;
+  top:70px;
+}
+
+.works-message p{
+  width:33%;
+  margin: 0 auto;
+  font-size:17px;
+  margin-bottom: 30px;
+  font-family: serif;
+}
+
+.work-list{
+  float:left;
+  width:30%;
+  text-align:center;
+  position: relative;
+  left:80px;
+  top:70px;
+}
+
+.work-list p{
+  width:55%;
+  display: inline-block;
+ font-family: serif;
+}
+
+.work-list h3{
+  margin-bottom: 30px;
+  font-family: serif;
+}
+
+.works2{
+  height:100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.portfolio{
+height:2550px;
+background-image: url(https://lh5.googleusercontent.com/akJvTXDhNl_Rx-ZPg00d6GbebmZb6jSwWBLzC2xulLTCJO3jXykYIZAoTbTPmMxUVv_k6us=w572);
+background-size: cover;
+}
+
+.portfolio2{
+  height:100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.portfolio-list img{
+  display: block;
+  width:50%;
+  height:450px;
+  margin: 0 auto;
+  margin-bottom:60px;
+}
+
+.portfolio-main{
+  text-align: center;
+  font-family: serif;
+  color: white;
+
+}
+
+.portfolio-main h1{
+  font-size: 45px;
+  border-top: 2px solid white;
+  padding-top: 50px;
+
+}
+
+.portfolio-main p{
+font-size: 25px;
+margin-bottom: 50px;
+}
+
+.portfolio-img img{
+  display: block;
+  width:50%;
+  height:170px;
+  margin: 0 auto;
+  border: 1px solid white;
+  position: relative;
+
+}
+
+.portfolio-img p{
+  color:white;
+  font-size: 40px;
+  position: absolute;
+  top:55px;
+  left:570px;
+  font-family: serif;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.portfolio-img{
+  position: relative;
+  transition: all 0.1s;
+
+}
+
+.link{
+  text-decoration: none;
+}
+
+.portfolio-img:hover{
+  opacity:0.5;
+}
+
+.price{
+  height:700px;
+  background-image: url(https://lh6.googleusercontent.com/UXd1gm2HdaTtXYXWCCSopZpaQn-Ix5mhk2p9akhwkjfJG8yHCtFnXkJkfp-izLFLoJ_hsOAZ=w572);
+  background-size: cover;
+}
+
+.price-main{
+  text-align: center;
+  font-family: serif;
+  color:white;
+
+}
+
+.price-main h1{
+font-size: 45px;
+border-top: 2px solid white;
+padding-top: 50px;
+}
+
+.price-main p{
+font-size: 25px;
+margin-bottom: 30px;
+}
+
+table{
+  width:50%;
+  height:300px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: serif;
+  border-collapse: collapse;
+  color:white;
+  background-color:rgba(0,0,0,0.8);
+  border: 1px solid white;
+  text-align: center;
+}
+
+.price-message {
+  text-align: center;
+  font-size:18px;
+  padding-top: 50px;
+  color:white;
+  font-family: serif;
+}
+
+.price2{
+  background-color: rgba(0,0,0,0.6);
+  height:100%
+}
+
+.tr1 th{
+  padding:10px 0px;
+}
+
+.contact{
+  background-image: url(https://lh4.googleusercontent.com/zIMAhPF4Oe1wSh5yQik1rIMx1_0k7vs2Vxgh3o3dg4DkUwU9XvPbCOtt2enbVgJmrc9zZ5mzV6zJzG-wBbjaM14Zlrw5besw0RZ0T89pevyFVnE6Vro=w673);
+  background-size: cover;
+  height:430px;
+}
+
+.contact-btn i:hover{
+  color:blue;
+}
+
+.contact2{
+  background-color: rgba(0,0,0,0.6);
+  height:100%;
+}
+
+.contact-main{
+  text-align: center;
+  color: white;
+  margin-bottom:50px;
+}
+
+.contact-main h1{
+  border-top: 2px solid white;
+  padding-top: 50px;
+  font-style: 45px;
+}
+
+.contact-main p{
+  font-size: 25px;
+
+}
+
+.contact-sub{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
+
+.fa-envelope{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  width:100%;
+  margin-top: 50px;
+}
+
+footer{
+  background-color:black;
+  color:white;
+  font-family: serif;
+  height:140px;
+}
+
+.footer-list{
+  width:100%;
+  border-top: 2px solid white;
+}
+
+.footer-list li{
+  font-size:23px;
+  list-style: none;
+  float: left;
+  padding-right: 30px;
+  padding-top: 30px;
+
+ }
+
+ .footer-list li:hover{
+   color:black;
+   opacity:0.4;
+ }
+
+ .clear{
+  clear: left;
+ }
+
+ .footer-list2{
+   padding-left: 500px;
+ }
+
+.footer-list a{
+  text-decoration: none;
+  color:white
+}
+
+.footer-message{
+  font-size:23px;
+  padding-left: 500px;
+
+}
