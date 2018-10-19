@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+
 header{
   position: fixed;
   z-index: 10;
@@ -40,9 +42,12 @@ header{
   font-family:"Times New Roman";
 }
 
-.main{
-  background-image: url(https://lh6.googleusercontent.com/JrvS56Sq2Hl7F7mcQuPm-M8qC12XTqNLNBHnomyTR7-Vx9pdCkV5FrCiTVnVKoVyKersM3qr=w572);
+.main-logo{
 
+}
+
+.main{
+  background-image: url(https://images.unsplash.com/photo-1539754896975-0c7e692b0966?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ae86f83781c0f61677e70dae03beb2b&auto=format&fit=crop&w=2250&q=80);
   background-size: cover;
   height:700px;
   padding-top: 20px;
@@ -62,6 +67,8 @@ header{
   margin:top:30px;
   font-family: serif;
   width:100%;
+
+
 }
 
 .myprof hr{
@@ -72,6 +79,7 @@ header{
 .myprof h1{
   font-size:45px;
   border-top: 2px solid white;
+
 }
 
 .myprof p{
@@ -80,10 +88,15 @@ header{
 
 .myinfo{
   width:100%;
-  background-image: url(https://lh4.googleusercontent.com/dh-_NFAL_tJHdwMFQM3ckuClbFyvKeChWWrZeysmQttjDNxELeGfM_nWccjbndx2OrWkLgxXQPIZ1G9BLcIT71q8P3mZaybGe63zqU_WHYHAcmvUUh0=w572);
+  background-image: url(https://images.unsplash.com/photo-1539718110656-942f6db1bfa0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7a01af9fdd37508f59213ae0c01b14fb&auto=format&fit=crop&w=2250&q=80);
   background-size: cover;
   height:800px;
 
+}
+
+#info-show2{
+  display: none;
+  height:100%;
 }
 
 
@@ -102,6 +115,8 @@ header{
 }
 
 .myimg img{
+  width:300px;
+  height:400px;
   display:inline-block;
   margin-bottom:200px;
   position: relative;
@@ -138,7 +153,7 @@ header{
 
 .works{
   height:950px;
-  background-image: url(https://lh5.googleusercontent.com/vHRzqFN9D-mUkn8OQzK6mz0QR-ebHzQNrk6nDQBTuNjmm5EN2UqlII-LbBlLYlm1nigSaW881mgvYc2r6Po95aOh0UqxBTfNAv8CTWrCz9_Q11oUdg=w572);
+  background-image: url(https://images.unsplash.com/photo-1518081461904-9d8f136351c2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a815e999d0f593c8c8bbcb6473b0d39&auto=format&fit=crop&w=2277&q=80);
   background-size: cover;
   color:white;
 
@@ -187,6 +202,7 @@ padding-top:50px;
   position: relative;
   left:80px;
   top:70px;
+  display:none;
 }
 
 .work-list p{
@@ -207,7 +223,7 @@ padding-top:50px;
 
 .portfolio{
 height:2550px;
-background-image: url(https://lh5.googleusercontent.com/akJvTXDhNl_Rx-ZPg00d6GbebmZb6jSwWBLzC2xulLTCJO3jXykYIZAoTbTPmMxUVv_k6us=w572);
+background-image: url(https://images.unsplash.com/photo-1519781584827-97009e7f000c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3edb9edcc3467cd2bab5a0c535991ce1&auto=format&fit=crop&w=2500&q=80);
 background-size: cover;
 }
 
@@ -281,7 +297,7 @@ margin-bottom: 50px;
 
 .price{
   height:700px;
-  background-image: url(https://lh6.googleusercontent.com/UXd1gm2HdaTtXYXWCCSopZpaQn-Ix5mhk2p9akhwkjfJG8yHCtFnXkJkfp-izLFLoJ_hsOAZ=w572);
+  background-image: url(https://images.unsplash.com/photo-1529119513315-c7c361862fc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=42b7f1ce9d9ca9c78f243b27eb92856d&auto=format&fit=crop&w=2250&q=80);
   background-size: cover;
 }
 
@@ -334,13 +350,63 @@ table{
 }
 
 .contact{
-  background-image: url(https://lh4.googleusercontent.com/zIMAhPF4Oe1wSh5yQik1rIMx1_0k7vs2Vxgh3o3dg4DkUwU9XvPbCOtt2enbVgJmrc9zZ5mzV6zJzG-wBbjaM14Zlrw5besw0RZ0T89pevyFVnE6Vro=w673);
+  background-image: url(https://images.unsplash.com/photo-1527067669193-6a36380de229?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=075d07fb2cee915ef07dee0d73cbdd54&auto=format&fit=crop&w=3336&q=80);
   background-size: cover;
   height:430px;
 }
 
-.contact-btn i:hover{
-  color:blue;
+
+.fa-envelope{
+  color:white;
+  font-size: 30px;
+  position: absolute;
+  left:775px;
+  color:rgb(62, 72, 74);
+  z-index: 10;
+  margin-top:15px;
+}
+
+.maru{
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left:760px;
+}
+
+.maru2{
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left:880px;
+}
+
+
+.fa-twitter{
+  color:white;
+  font-size: 30px;
+  position: absolute;
+  left:895px;
+  color:rgba(9, 188, 254, 0.7);
+  z-index: 10;
+  margin-top:15px;
+}
+
+.contact-btn-main{
+
+  display: inline-block;
+}
+
+.contact-btn{
+  float: left;
+  margin:right:50px;
+}
+
+.contact-btn2{
+  float:left;
 }
 
 .contact2{
@@ -371,13 +437,6 @@ table{
   font-size: 20px;
 }
 
-.fa-envelope{
-  color:white;
-  text-align: center;
-  font-size: 50px;
-  width:100%;
-  margin-top: 50px;
-}
 
 footer{
   background-color:black;
@@ -389,15 +448,19 @@ footer{
 .footer-list{
   width:100%;
   border-top: 2px solid white;
+  margin: 0 auto;
 }
 
 .footer-list li{
   font-size:23px;
   list-style: none;
   float: left;
-  padding-right: 30px;
-  padding-top: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+ }
 
+ .footers{
+   display: inline;
  }
 
  .footer-list li:hover{
@@ -410,7 +473,7 @@ footer{
  }
 
  .footer-list2{
-   padding-left: 500px;
+   margin-left: 500px;
  }
 
 .footer-list a{
