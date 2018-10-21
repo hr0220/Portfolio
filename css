@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  width:1680px;
+}
+
 
 
 header{
@@ -51,6 +55,7 @@ header{
   background-size: cover;
   height:700px;
   padding-top: 20px;
+  width:100%;
 }
 
 .main-logo hr{
